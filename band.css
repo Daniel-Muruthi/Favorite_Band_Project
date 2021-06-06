@@ -1,10 +1,273 @@
 body{
-    background-color: azure;
+    background-color:rgb(255 255 153);
+    background-size:1920px 1024px;
+    border: 1px solid black;
+    
+}
+
+.crown{
+    position:relative;
+    width:1820px;
+    height:230px;
+    top:0px;
+    margin-left:0px;;
+    margin-right: 0px;
+    display:block;
+    background: url(crown.jpg);
+    background-repeat:repeat-x;
+    background-position: center;
+    border: 1px solid white;
+    background-size:contain;
+    background-position: center;
+    border: 0px;
+    background-color:rgb(255 255 153);
+
+}
+
+.imagebackground{
+    width :1833px;
+    height: 1024px;
+    left:300px;
+    background: url(queen.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    background-color:rgb(255 255 153);
+    
+}
+#statement{
+    font-family:'Limelight', cursive;
+    font-style:normal;
+    font-weight:normal;
+    font-stretch: wider;
+    text-align:center;
+    font-size: 50px;
+    line-height:50px;
+    position: absolute;
+    width:199px;
+    height: 310px;
+    left:130px;
+    top:490px;
+    background-color:rgb(255 255 153);
+}
+.anime{
+    position:absolute;
+    width:457px;
+    height: 823px;
+    right:9px;
+    top:440px;
+    line-height:26px;
+    font-weight:1000px;
+    background:url(fcdcf85b6582b2e65609cb923b2a6cd0.jpg);
+    border: 1px solid white;
+    overflow:hidden;
+    background-size:contain;
+    background-color:rgb(255 255 153);
+
+}
+
+.musica{
+    position:absolute;
+    width:476px;
+    height: 300px;
+    left:9px;
+    top:959px;
+    line-height:26px;
+    font-weight:1000px;
+    background:url(musica.jpg);
+    border: 1px solid white;
+    overflow:hidden;
+    background-size:cover;
+    background-color:rgb(255 255 153);
+}
+.rose{
+    display:block;
+    position:absolute;
+    width: 475px;
+    height: 289px;
+    left:9px;
+    top:160px;
+    background:url(roses.jpg);
+    border: 1px solid white;
+    overflow:hidden;
+    background-color:rgb(255 255 153);
+}
+.rose2{
+    display:block;
+    position:absolute;
+    width: 475px;
+    height: 289px;
+    left:1351px;
+    top:160px;
+    background:url(roses.jpg);
+    transform:matrix(-1,0,0,1,0,0);
+    border: 1px solid white;
+    overflow:hidden;
+    background-color:rgb(255 255 153);
+
 }
 h1{
-    color:gold;
-    font-family:'Times New Roman', 'Open Sans', cursive;
+    color:white;
+    text-align:center;
 }
-p{
-    font-size: large;
+
 }
+
+}
+.logo{
+    position:absolute;
+    background:url(queenlogo.jpg);
+    background-repeat: no-repeat;
+    left:9px;
+    right:9px;
+    max-width:100%;
+    height:605px;
+    top:1050px;
+}
+.newcolor{
+    background-color:black;
+    border:1px solid white;
+}
+.newimage{
+    position:relative;
+    background:url(usethisasbackground.jpg);
+    width:1439px;
+    height:1034px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-blend-mode: difference;
+    left:220px;
+    bottom: 0px;
+    border:0px;
+    opacity:0.2;
+    top:0px;
+
+    
+}
+.header{
+    color: purple;
+    text-align:center;
+    font-weight:bolder;
+    font-size: x-large;
+    position:relative;
+}
+
+
+p.logo{
+    position:absolute;
+    display:flex;
+    flex-direction: row;
+    color:white;
+    font-size:large;
+    font-stretch: wider;
+    font-family:'Times New Romans','Open Sans',  cursive, serif;
+    background:url(queenlogo.jpg);
+    background-repeat: no-repeat;
+    width:100%;
+    height:605px;
+    top:1450px;
+    right:9px;
+    left:9px;
+}
+
+
+
+.freddy{
+    position:absolute;
+    display:flex;
+    flex-direction: row;
+    left:9px;
+    max-width:100%;
+    height:485px;
+    background-repeat:no-repeat;
+    background-position:left;
+    background-color: black;
+    top:2435x;
+    left:10px;
+    border:1px solid black;
+}
+p.freddy{
+    text-align:center;
+    background-repeat: no-repeat;
+    position:relative;
+    color: purple;
+    background-color: black;
+    display:block;
+    font-family:'limelight', cursive;
+    font-size:x-large;
+}
+.john{
+    position:absolute;
+    top:2250px;
+    background-color:rgb(255 255 153);
+    max-width:100%;
+    display:block;
+    color: black;
+
+}
+p.john{
+    text-align:center;
+    color:purple;
+    background-repeat:no-repeat;
+    position:absolute;
+    display:block;
+    font-family:'limelight', cursive;
+    font-size:large;
+}
+.brian{
+    position:absolute;
+    top:1800px;
+    right:99px;
+    max-width:100%;
+    display:block;
+
+}
+p.brian{
+    text-align:center;
+    color:purple;
+    background-repeat: no-repeat;
+    position:absolute;
+    display:block;
+    font-family:'limelight', cursive;
+    font-size:x-large;
+}
+.Rodger{
+    position:absolute;
+    top:2334px;
+    background-color:rgb(255 255 153);
+    max-width:100%;
+    right:9px;
+    display:block;
+    color: black;
+}
+p.Rodger{
+    text-align:center;
+    color:purple;
+    right:11px;
+    background-repeat:no-repeat;
+    position:absolute;
+    display:block;
+    font-family:'limelight', cursive;
+    font-size:x-large;
+}
+p.songs{
+    list-style-type:circle;
+    text-align:right;
+    color:purple;
+    position:absolute;
+    background-color:black;
+}
+a:hover{
+    color:green;
+}
+h2{
+    font-size:x-large;
+    font-family:'limelight', cursive;
+
+}
+ul{
+    font-size:large;
+    color:blue;
+}
+
+/*My first html/css coding project*/
