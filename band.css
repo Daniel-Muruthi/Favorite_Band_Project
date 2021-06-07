@@ -35,6 +35,7 @@ body{
     background-color:rgb(255 255 153);
     
 }
+/*code for the greatest of all time statement*/
 #statement{
     font-family:'Limelight', cursive;
     font-style:normal;
@@ -50,6 +51,7 @@ body{
     top:490px;
     background-color:rgb(255 255 153);
 }
+
 .anime{
     position:absolute;
     width:457px;
@@ -111,9 +113,6 @@ h1{
     text-align:center;
 }
 
-}
-
-}
 .logo{
     position:absolute;
     background:url(queenlogo.jpg);
